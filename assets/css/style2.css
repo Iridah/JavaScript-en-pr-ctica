@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    color: #373A3C;
+}
+
+button.rojizo {
+    background-color: #e53e3e;
+}
+button.naranjo {
+    background-color: #dd6b20;
+}
+button.amarillo {
+    background-color: #faf089;
+}
+button.verde {
+    background-color: #48bb78;
+}
+button.calipso {
+    background-color: #81e6d9;
+}
+button.rosa {
+    background-color: #d53f8c;
+}

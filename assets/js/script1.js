@@ -18,7 +18,7 @@
 //     */
    let form = document.getElementById("form");
    
-   form.addEventListener("submit", function (event) {
+   form.addEventListener( "submit", function (event) {
     event.preventDefault();
     limpiarErrores();
     let textNombre = document.querySelector(".textNombre").value;
@@ -44,17 +44,17 @@
 
    function validar(nombre,asunt,mensaje) {
     let pasamosLaValidacion = true;
-    let validacionNombre = /[a-zA-Z0-9 ]+$/i;
+    let validacionNombre = /[a-zA-Z0-9 ]/i;
     if (validacionNombre.test(nombre) == false) {
         document.querySelector(".errorNombre").innerHTML = "Ingrese un nombre válido, por favor.";
         pasamosLaValidacion = false;
     };
-    let validacionAsunto = /[a-zA-Z0-9 ]+$/i;
+    let validacionAsunto = /[a-zA-Z0-9 ]/i;
     if (validacionAsunto.test(asunt) == false) {
         document.querySelector(".errorAsunt").innerHTML = "Ingrese un asunto válido, por favor.";
         pasamosLaValidacion = false;
     };
-    let validacionMensaje = /[a-zA-Z0-9 ]+$/i;
+    let validacionMensaje = /[a-zA-Z0-9 ]/i;
     if (validacionMensaje.test(mensaje) == false) {
         document.querySelector(".errorMensaje").innerHTML = "Ingrese un mensaje válido, por favor.";
         pasamosLaValidacion = false;

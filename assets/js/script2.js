@@ -32,8 +32,49 @@ bg.color en el container*/
 //     document.getElementById("btn-6").addEventListener("click", style.backgroundColor = "#d53f8c");
 // }
 
-document.getElementById('boton');
-boton.addEventListener("click", (e) => {
-    document.getElementById("caja").style.backgroundColor = "color";
-});
+let bnt1 = document.querySelector("#btn-1");
+let bnt2 = document.querySelector("#btn-2");
+let bnt3 = document.querySelector("#btn-3");
+let bnt4 = document.querySelector("#btn-4");
+let bnt5 = document.querySelector("#btn-5");
+let bnt6 = document.querySelector("#btn-6");
+
+bnt1.onclick = function(){
+    document.getElementById("caja").addEventListener("click", style.backgroundColor = "color");
+}
+bnt2.onclick = function(){
+    document.getElementById("caja").addEventListener("click", style.backgroundColor = "color");
+}
+bnt3.onclick = function(){
+    document.getElementById("caja").addEventListener("click", style.backgroundColor = "color");
+}
+bnt4.onclick = function(){
+    document.getElementById("caja").addEventListener("click", style.backgroundColor = "color");
+}
+bnt5.onclick = function(){
+    document.getElementById("caja").addEventListener("click", style.backgroundColor = "color");
+}
+bnt6.onclick = function(){
+    document.getElementById("caja").addEventListener("click", style.backgroundColor = "color");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// document.getElementById('boton');
+// boton.addEventListener("click", (e) => {
+//     document.getElementById("caja").style.backgroundColor = "color";
+// });
 
